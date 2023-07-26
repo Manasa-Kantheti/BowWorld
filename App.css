@@ -1,0 +1,64 @@
+.d-flex {
+  display: flex;
+}
+
+.flex-direction {
+  flex-direction: column;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.w-p-100 {
+  width: 100%;
+}
+
+.w-p-25 {
+  width: 25%;
+}
+
+.h-p-100 {
+  height: 100%;
+}
+
+.px-1 {
+  padding: 0 1rem;
+}
+
+.px-2 {
+  padding: 0 2rem;
+}
+
+.px-3 {
+  padding: 0 3rem;
+}
+
+.pb-1 {
+  padding-bottom: 1rem;
+}
+
+.pb-2 {
+  padding-bottom: 2rem;
+}
+
+.my-auto {
+  margin: auto 0;
+}
+
+.overflow-hidden {
+  overflow: hidden !important;
+}
+
+.layout-container {
+  overflow-y: auto;
+  height: calc(100vh - 5rem);
+}
+
+.text-white {
+  color: #fff;
+}
