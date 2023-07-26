@@ -1,0 +1,71 @@
+.product-home {
+  max-width: 900px;
+  width: 98%;
+  margin: 0 auto;
+  padding-top: 0.25rem;
+  /* background-image: url('../assets/Dog1.jpg');
+  background-size: cover;
+  background-position: center; */
+  }
+
+.homepage {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.homepage-text {
+  color: #54575a;
+}
+
+.homepage-text h1 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+.homepage-text p {
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 400;
+}
+
+
+.btn-home {
+  padding: 1rem;
+  border-radius: 0.25rem;
+  color: #F79219;
+  position: relative;
+  border: 0;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.btn-more {
+  color: #F79219;
+  position: relative;
+}
+
+.btn-more:before {
+  content: "";
+  border-radius: 50%;
+  background-color: #D1002833;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 2rem;
+  height: 2rem;
+  transition: 0.5s;
+  transform: translate(0%, -50%);
+}
+
+.btn-more:after {
+  content: "\f178";
+  font-family: "FontAwesome";
+  margin-left: 0.25rem;
+}
+
+.btn-more:hover:before {
+  border-radius: 2.5rem;
+  width: 100%;
+}
+

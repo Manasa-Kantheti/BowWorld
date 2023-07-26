@@ -1,0 +1,30 @@
+.explore-container {
+    background-image: url('../assets/paw-exp.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-color: #ffffff80;
+    background-blend-mode: overlay;
+    margin-bottom: 4rem;
+}
+
+.explore-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.explore-section h2 {
+    font-size: 2rem;
+    color: #54575a !important;
+}
+
+.explore-section p {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 400;
+    padding: 0 2rem;
+    color: #54575a !important;
+}

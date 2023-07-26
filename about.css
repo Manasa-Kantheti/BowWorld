@@ -1,0 +1,36 @@
+.about-component {
+    margin: 0;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-header {
+    background-color: #58595B;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h1 {
+    margin-top: 0;
+}
+
+.about-container p {
+    margin-bottom: 1rem;
+}
+
+.about-container a {
+    color: #007bff;
+}
+
+.about-container ul li {
+    padding: 0.5rem;
+}
